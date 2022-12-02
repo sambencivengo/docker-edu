@@ -29,3 +29,7 @@ CMD [ "node", "src/index.js" ]
 
 # Command line to stop
 # $ docker container stop {container id}
+
+# Command line to build a new version
+# -d will run it in the backround {org name}/{image name}:{version (increment when new)} {location}
+# $ docker build -d sambencivengo/docker-node-example:2 .
